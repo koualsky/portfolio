@@ -1,0 +1,13 @@
+body {
+    /* background: #eee; */
+}
+
+/* SMALL MOBILE. Small devices (phones, 576px and up) */
+@media only screen and (min-width: 576px) {}
+
+/* MOBILE. Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* DESKTOP. Large devices (desktops, 992px and up) */
+/* BOOTSTRAP MENU BREAKPOINT */
+@media only screen and (min-width: 992px) {}
