@@ -1,12 +1,39 @@
 {% extends "sites/base.html" %}
+{% load static %}
 
 {% block content %}
     
 
     <div class="container">
         <div class="d-flex justify-content-center align-items-center">
-            The easiest way to contact with me is by&nbsp; 
-            <a href="mailto:koualsky@gmail.com"> koualsky@gmail.com</a>
+
+            <div class="card about border-0" style="width: 18rem;">
+              <img src="{% static '/sites/me.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hi, I'm Maciej :)</h5>
+                <p>I'm a Fullstack Developer.</p>
+                <p>I make web app's working perfectly on mobiles and pc's.</p>
+                <p>In my work I use:</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap</li>
+                    <li>PostgreSQL</li>
+                    <li>Redis</li>
+                    <li>Twisted</li>
+                    <li>Celery</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Git</li>
+                </ul>
+
+                <p>The easiest way to contact with me is by
+                <a href="mailto:koualsky@gmail.com" class=""> koualsky@gmail.com</a></p>
+              </div>
+            </div>
+
         </div>
     </div>
 

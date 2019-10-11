@@ -1,5 +1,25 @@
-body {
-    /* background: #eee; */
+/* THIS IF FOR MOBILE! IN MEDIA DESKTOP TRANSFORMING FOR DESKTOPS */
+
+.navbar-brand {
+    font-size: 2em;
+    cursor: default;
+}
+
+.logo-gradient {
+  /* standard gradient background */
+  background: linear-gradient(135deg, rgba(193,178,227,1) 0%, rgba(205,136,90,1) 100%);
+
+  /* clip hackery */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about {
+    cursor: default;
+}
+
+.work {
+    cursor: default;
 }
 
 /* SMALL MOBILE. Small devices (phones, 576px and up) */
@@ -10,4 +30,8 @@ body {
 
 /* DESKTOP. Large devices (desktops, 992px and up) */
 /* BOOTSTRAP MENU BREAKPOINT */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .navbar {
+        height: 150px;
+    }
+}
